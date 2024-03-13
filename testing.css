@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body .header{
+    background-image: url(./img/image-header.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.arrow-div{
+    position: relative;
+    width: 1%;
+}
+
+.arrow-div img{
+    position: absolute;
+    top: 11rem;
+}
+
+.texthead{
+    transform: translateY(5rem);
+    letter-spacing: 5px;
+
+}
+
+.boxes div{
+    height: 30rem;
+
+}
+
+.boxes div:nth-child(1){
+    background:white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 7rem;
+
+}
+
+.boxes div:nth-child(1) h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.boxes div:nth-child(1) h4{
+    position: relative;    
+}
+
+.boxes div:nth-child(1) h4::after{
+    content: "";
+    position: absolute;
+    width: 7rem;
+    height: 0.5rem;
+    background: yellow;
+    bottom: -7px;
+    left: 0;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.boxes div:nth-child(1) h4:hover::after{
+    transition: all 1s;
+    transform: scaleX(1.5);
+}
+    
+
+.boxes div:nth-child(2){
+    background:blue;
+    background-image: url(./img/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxes div:nth-child(3){
+    background:green;
+background-image: url(./img/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxes div:nth-child(4){
+    background:white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 7rem;
+}
+
+.boxes div:nth-child(4) h1{
+    font-size: 46px;
+    font-weight: 700;
+}
+
+
+.boxes div:nth-child(5){
+    background: blueviolet;
+    background-image: url(./img/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxes div:nth-child(6){
+    background: aqua;
+    background-image: url(./img/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+figure{
+    background: white;
+}
+
+/* .row{
+    padding: 0 7rem;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+} */
+
+.testimonial-heading{
+    text-align: center;
+    gap: 2rem;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    color: gray;
+}
+
+.testimonial-heading h2{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 4px;
+
+}
+
+.circular-image{
+    border-radius: 50%;
+    width: 20%;
+    align-self: center;
+
+}
+
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 1rem; */
+}
+
+.paragraph1{
+    text-align: center;
+}
+
+.testimonial-author{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.testimonial-author h4{
+    font-weight: 700;
+    font-size: 18px;
+}
+.testimonial-author p{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
