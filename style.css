@@ -157,8 +157,7 @@ figure{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
-    padding: 0 5rem;
+    /* gap: 1rem; */
 }
 
 .paragraph1{
